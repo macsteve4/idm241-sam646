@@ -65,6 +65,19 @@ font-size: 100%;
     letter-spacing: .1rem;
 
   }
+
+/*this is for my moving logo microinteraction. */
+
+.static {
+  position:absolute;
+  background: white;
+  max-width: 200px;
+}
+
+.static:hover {
+  opacity:0;
+}
+
 /* This follows the attribution of Lato to the nav items, and their placement. */
   li {
     font-family: Lato;
@@ -99,6 +112,15 @@ font-size: 100%;
   text-align: left;
   color: white;
   background-color: black;
+}
+
+/* Formatting of my built alpha interaction. */
+.pic {
+  max-width: 200px;
+background-color: white;
+  padding: .5rem;
+  border-radius: 15px;
+  margin: auto;
 }
 
 /* Sections follow content layout for projects. */
@@ -201,6 +223,14 @@ p.about {
   border-color: rgba(105, 24, 105, 0.534);
   padding: 1rem;
   max-width: 300px;
+}
+
+.about_alpha {
+  border-width: 0em;
+  background-color: #cfffe1;
+  margin: auto;
+  max-width: 540px;
+  bottom: 0;
 }
 
 p.top {
